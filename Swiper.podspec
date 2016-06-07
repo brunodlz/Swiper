@@ -21,15 +21,17 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://github.com/gkye/Swiper'
   s.license          = 'MIT'
-  s.author           = { "George Kye" => "gkye@live.ca" }
+  s.author           = { "George Kye" => "qwstnz@gmail.com" }
   s.source           = { :git => 'https://github.com/gkye/Swiper.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/kyegeorge'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = "Sources", "Sources/*.swift"
+  s.source_files = 'Sources/**/*'
+
 
   s.frameworks = 'UIKit'
+  s.platform     = :ios, "9.0"
 
 #s.dependency 'Stellar', :git=> 'https://github.com/AugustRush/Stellar.git'
 #  s.dependency 'PeekView'
