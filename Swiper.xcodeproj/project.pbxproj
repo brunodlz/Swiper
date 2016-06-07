@@ -43,7 +43,6 @@
 		5E56F2C51D076F6B00CAED06 /* Value+Physical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F2A21D076F6B00CAED06 /* Value+Physical.swift */; };
 		5E56F2C61D076F6B00CAED06 /* Vectorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F2A31D076F6B00CAED06 /* Vectorial.swift */; };
 		5E56F2C71D076F6B00CAED06 /* Swiper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F2A41D076F6B00CAED06 /* Swiper.swift */; };
-		5E56F2CA1D07701E00CAED06 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E56F2C81D07701E00CAED06 /* Info.plist */; };
 		5E56F2CB1D07701E00CAED06 /* Swiper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E56F2C91D07701E00CAED06 /* Swiper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -332,7 +331,6 @@
 			files = (
 				5E56F2A61D076F6B00CAED06 /* arrow@2x.png in Resources */,
 				5E56F2A91D076F6B00CAED06 /* checked@3x.png in Resources */,
-				5E56F2CA1D07701E00CAED06 /* Info.plist in Resources */,
 				5E56F2A81D076F6B00CAED06 /* checked@2x.png in Resources */,
 				5E56F2A71D076F6B00CAED06 /* arrow@3x.png in Resources */,
 			);
