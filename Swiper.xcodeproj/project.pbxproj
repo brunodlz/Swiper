@@ -7,44 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EB02BF1CEF8357C29C3B69A /* Pods_SwiperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B0172EFF200F03A78FB3C6F /* Pods_SwiperTests.framework */; };
+		4EF3312A8AC9BB7EB9C4D6C6 /* Pods_Swiper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05EA565FC8E4731F6C950FE9 /* Pods_Swiper.framework */; };
 		5E56F26C1D076F3E00CAED06 /* Swiper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E56F2611D076F3E00CAED06 /* Swiper.framework */; };
 		5E56F2711D076F3E00CAED06 /* SwiperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F2701D076F3E00CAED06 /* SwiperTests.swift */; };
 		5E56F2C71D076F6B00CAED06 /* Swiper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F2A41D076F6B00CAED06 /* Swiper.swift */; };
 		5E56F2CB1D07701E00CAED06 /* Swiper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E56F2C91D07701E00CAED06 /* Swiper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E56F3021D0777BB00CAED06 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5E56F2DC1D0777BB00CAED06 /* .gitignore */; };
-		5E56F3031D0777BB00CAED06 /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E56F2DF1D0777BB00CAED06 /* arrow@2x.png */; };
-		5E56F3041D0777BB00CAED06 /* arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E56F2E01D0777BB00CAED06 /* arrow@3x.png */; };
-		5E56F3051D0777BB00CAED06 /* checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E56F2E11D0777BB00CAED06 /* checked@2x.png */; };
-		5E56F3061D0777BB00CAED06 /* checked@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E56F2E21D0777BB00CAED06 /* checked@3x.png */; };
-		5E56F3071D0777BB00CAED06 /* PeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F2E31D0777BB00CAED06 /* PeekView.swift */; };
-		5E56F3081D0777BB00CAED06 /* AnimationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F2E61D0777BB00CAED06 /* AnimationContext.swift */; };
-		5E56F3091D0777BB00CAED06 /* AnimationSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F2E71D0777BB00CAED06 /* AnimationSequence.swift */; };
-		5E56F30A1D0777BB00CAED06 /* AnimationStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F2E81D0777BB00CAED06 /* AnimationStep.swift */; };
-		5E56F30B1D0777BB00CAED06 /* AnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F2E91D0777BB00CAED06 /* AnimationType.swift */; };
-		5E56F30C1D0777BB00CAED06 /* AnimatorCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F2EA1D0777BB00CAED06 /* AnimatorCoordinator.swift */; };
-		5E56F30D1D0777BB00CAED06 /* AttachmentConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F2EB1D0777BB00CAED06 /* AttachmentConfigurable.swift */; };
-		5E56F30E1D0777BB00CAED06 /* BasicChainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F2EC1D0777BB00CAED06 /* BasicChainable.swift */; };
-		5E56F30F1D0777BB00CAED06 /* BasicConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F2ED1D0777BB00CAED06 /* BasicConfigurable.swift */; };
-		5E56F3101D0777BB00CAED06 /* CALayer+Stellar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F2EE1D0777BB00CAED06 /* CALayer+Stellar.swift */; };
-		5E56F3111D0777BB00CAED06 /* Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F2EF1D0777BB00CAED06 /* Chainable.swift */; };
-		5E56F3121D0777BB00CAED06 /* DynamicItem+Behavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F2F01D0777BB00CAED06 /* DynamicItem+Behavior.swift */; };
-		5E56F3131D0777BB00CAED06 /* DynamicItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F2F11D0777BB00CAED06 /* DynamicItem.swift */; };
-		5E56F3141D0777BB00CAED06 /* DynamicItem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F2F21D0777BB00CAED06 /* DynamicItem2.swift */; };
-		5E56F3151D0777BB00CAED06 /* DynamicItemBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F2F31D0777BB00CAED06 /* DynamicItemBasic.swift */; };
-		5E56F3161D0777BB00CAED06 /* DynamicItemGravity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F2F41D0777BB00CAED06 /* DynamicItemGravity.swift */; };
-		5E56F3171D0777BB00CAED06 /* GravityConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F2F51D0777BB00CAED06 /* GravityConfigurable.swift */; };
-		5E56F3181D0777BB00CAED06 /* Interpolatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F2F61D0777BB00CAED06 /* Interpolatable.swift */; };
-		5E56F3191D0777BB00CAED06 /* Physical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F2F71D0777BB00CAED06 /* Physical.swift */; };
-		5E56F31A1D0777BB00CAED06 /* SnapConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F2F81D0777BB00CAED06 /* SnapConfigurable.swift */; };
-		5E56F31B1D0777BB00CAED06 /* TimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F2F91D0777BB00CAED06 /* TimingFunction.swift */; };
-		5E56F31C1D0777BB00CAED06 /* TimingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F2FA1D0777BB00CAED06 /* TimingType.swift */; };
-		5E56F31D1D0777BB00CAED06 /* UIDynamicBehavior+Commit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F2FB1D0777BB00CAED06 /* UIDynamicBehavior+Commit.swift */; };
-		5E56F31E1D0777BB00CAED06 /* UILabel+Stellar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F2FC1D0777BB00CAED06 /* UILabel+Stellar.swift */; };
-		5E56F31F1D0777BB00CAED06 /* UITextView+Stellar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F2FD1D0777BB00CAED06 /* UITextView+Stellar.swift */; };
-		5E56F3201D0777BB00CAED06 /* UIView+Stellar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F2FE1D0777BB00CAED06 /* UIView+Stellar.swift */; };
-		5E56F3211D0777BB00CAED06 /* UnitBezier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F2FF1D0777BB00CAED06 /* UnitBezier.swift */; };
-		5E56F3221D0777BB00CAED06 /* Value+Physical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F3001D0777BB00CAED06 /* Value+Physical.swift */; };
-		5E56F3231D0777BB00CAED06 /* Vectorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56F3011D0777BB00CAED06 /* Vectorial.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +26,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05EA565FC8E4731F6C950FE9 /* Pods_Swiper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swiper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		081575E52B37DAA9AABF721C /* Pods-Swiper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swiper.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swiper/Pods-Swiper.release.xcconfig"; sourceTree = "<group>"; };
+		09A8913205AF5D18BE8F4EED /* Pods-SwiperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiperTests/Pods-SwiperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B0172EFF200F03A78FB3C6F /* Pods_SwiperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E56F2611D076F3E00CAED06 /* Swiper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swiper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E56F26B1D076F3E00CAED06 /* SwiperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E56F2701D076F3E00CAED06 /* SwiperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiperTests.swift; sourceTree = "<group>"; };
@@ -65,40 +37,8 @@
 		5E56F2A41D076F6B00CAED06 /* Swiper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swiper.swift; sourceTree = "<group>"; };
 		5E56F2C81D07701E00CAED06 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E56F2C91D07701E00CAED06 /* Swiper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Swiper.h; sourceTree = "<group>"; };
-		5E56F2DC1D0777BB00CAED06 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		5E56F2DF1D0777BB00CAED06 /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
-		5E56F2E01D0777BB00CAED06 /* arrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@3x.png"; sourceTree = "<group>"; };
-		5E56F2E11D0777BB00CAED06 /* checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checked@2x.png"; sourceTree = "<group>"; };
-		5E56F2E21D0777BB00CAED06 /* checked@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checked@3x.png"; sourceTree = "<group>"; };
-		5E56F2E31D0777BB00CAED06 /* PeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeekView.swift; sourceTree = "<group>"; };
-		5E56F2E61D0777BB00CAED06 /* AnimationContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationContext.swift; sourceTree = "<group>"; };
-		5E56F2E71D0777BB00CAED06 /* AnimationSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationSequence.swift; sourceTree = "<group>"; };
-		5E56F2E81D0777BB00CAED06 /* AnimationStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationStep.swift; sourceTree = "<group>"; };
-		5E56F2E91D0777BB00CAED06 /* AnimationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationType.swift; sourceTree = "<group>"; };
-		5E56F2EA1D0777BB00CAED06 /* AnimatorCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatorCoordinator.swift; sourceTree = "<group>"; };
-		5E56F2EB1D0777BB00CAED06 /* AttachmentConfigurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachmentConfigurable.swift; sourceTree = "<group>"; };
-		5E56F2EC1D0777BB00CAED06 /* BasicChainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicChainable.swift; sourceTree = "<group>"; };
-		5E56F2ED1D0777BB00CAED06 /* BasicConfigurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicConfigurable.swift; sourceTree = "<group>"; };
-		5E56F2EE1D0777BB00CAED06 /* CALayer+Stellar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Stellar.swift"; sourceTree = "<group>"; };
-		5E56F2EF1D0777BB00CAED06 /* Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chainable.swift; sourceTree = "<group>"; };
-		5E56F2F01D0777BB00CAED06 /* DynamicItem+Behavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DynamicItem+Behavior.swift"; sourceTree = "<group>"; };
-		5E56F2F11D0777BB00CAED06 /* DynamicItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicItem.swift; sourceTree = "<group>"; };
-		5E56F2F21D0777BB00CAED06 /* DynamicItem2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicItem2.swift; sourceTree = "<group>"; };
-		5E56F2F31D0777BB00CAED06 /* DynamicItemBasic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicItemBasic.swift; sourceTree = "<group>"; };
-		5E56F2F41D0777BB00CAED06 /* DynamicItemGravity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicItemGravity.swift; sourceTree = "<group>"; };
-		5E56F2F51D0777BB00CAED06 /* GravityConfigurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GravityConfigurable.swift; sourceTree = "<group>"; };
-		5E56F2F61D0777BB00CAED06 /* Interpolatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interpolatable.swift; sourceTree = "<group>"; };
-		5E56F2F71D0777BB00CAED06 /* Physical.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Physical.swift; sourceTree = "<group>"; };
-		5E56F2F81D0777BB00CAED06 /* SnapConfigurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapConfigurable.swift; sourceTree = "<group>"; };
-		5E56F2F91D0777BB00CAED06 /* TimingFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimingFunction.swift; sourceTree = "<group>"; };
-		5E56F2FA1D0777BB00CAED06 /* TimingType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimingType.swift; sourceTree = "<group>"; };
-		5E56F2FB1D0777BB00CAED06 /* UIDynamicBehavior+Commit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDynamicBehavior+Commit.swift"; sourceTree = "<group>"; };
-		5E56F2FC1D0777BB00CAED06 /* UILabel+Stellar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Stellar.swift"; sourceTree = "<group>"; };
-		5E56F2FD1D0777BB00CAED06 /* UITextView+Stellar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Stellar.swift"; sourceTree = "<group>"; };
-		5E56F2FE1D0777BB00CAED06 /* UIView+Stellar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Stellar.swift"; sourceTree = "<group>"; };
-		5E56F2FF1D0777BB00CAED06 /* UnitBezier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitBezier.swift; sourceTree = "<group>"; };
-		5E56F3001D0777BB00CAED06 /* Value+Physical.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Value+Physical.swift"; sourceTree = "<group>"; };
-		5E56F3011D0777BB00CAED06 /* Vectorial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vectorial.swift; sourceTree = "<group>"; };
+		87026E58048B69636EE569E8 /* Pods-Swiper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swiper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swiper/Pods-Swiper.debug.xcconfig"; sourceTree = "<group>"; };
+		F1C985683F3222437CFAF349 /* Pods-SwiperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiperTests/Pods-SwiperTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EF3312A8AC9BB7EB9C4D6C6 /* Pods_Swiper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,18 +55,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E56F26C1D076F3E00CAED06 /* Swiper.framework in Frameworks */,
+				3EB02BF1CEF8357C29C3B69A /* Pods_SwiperTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		450080351794719C593676DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87026E58048B69636EE569E8 /* Pods-Swiper.debug.xcconfig */,
+				081575E52B37DAA9AABF721C /* Pods-Swiper.release.xcconfig */,
+				09A8913205AF5D18BE8F4EED /* Pods-SwiperTests.debug.xcconfig */,
+				F1C985683F3222437CFAF349 /* Pods-SwiperTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5E56F2571D076F3E00CAED06 = {
 			isa = PBXGroup;
 			children = (
 				5E56F27B1D076F6B00CAED06 /* Sources */,
 				5E56F26F1D076F3E00CAED06 /* SwiperTests */,
 				5E56F2621D076F3E00CAED06 /* Products */,
+				450080351794719C593676DA /* Pods */,
+				A9FF04E7DAD153A7B8475846 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,7 +105,6 @@
 		5E56F27B1D076F6B00CAED06 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				5E56F2DA1D0777BB00CAED06 /* OpenSource */,
 				5E56F2A41D076F6B00CAED06 /* Swiper.swift */,
 				5E56F2C81D07701E00CAED06 /* Info.plist */,
 				5E56F2C91D07701E00CAED06 /* Swiper.h */,
@@ -158,85 +112,13 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		5E56F2DA1D0777BB00CAED06 /* OpenSource */ = {
+		A9FF04E7DAD153A7B8475846 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5E56F2DB1D0777BB00CAED06 /* PeekView */,
-				5E56F2E41D0777BB00CAED06 /* Stellar */,
+				05EA565FC8E4731F6C950FE9 /* Pods_Swiper.framework */,
+				5B0172EFF200F03A78FB3C6F /* Pods_SwiperTests.framework */,
 			);
-			path = OpenSource;
-			sourceTree = "<group>";
-		};
-		5E56F2DB1D0777BB00CAED06 /* PeekView */ = {
-			isa = PBXGroup;
-			children = (
-				5E56F2DC1D0777BB00CAED06 /* .gitignore */,
-				5E56F2DD1D0777BB00CAED06 /* Source */,
-			);
-			path = PeekView;
-			sourceTree = "<group>";
-		};
-		5E56F2DD1D0777BB00CAED06 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				5E56F2DE1D0777BB00CAED06 /* Assets */,
-				5E56F2E31D0777BB00CAED06 /* PeekView.swift */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		5E56F2DE1D0777BB00CAED06 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				5E56F2DF1D0777BB00CAED06 /* arrow@2x.png */,
-				5E56F2E01D0777BB00CAED06 /* arrow@3x.png */,
-				5E56F2E11D0777BB00CAED06 /* checked@2x.png */,
-				5E56F2E21D0777BB00CAED06 /* checked@3x.png */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		5E56F2E41D0777BB00CAED06 /* Stellar */ = {
-			isa = PBXGroup;
-			children = (
-				5E56F2E51D0777BB00CAED06 /* Sources */,
-			);
-			path = Stellar;
-			sourceTree = "<group>";
-		};
-		5E56F2E51D0777BB00CAED06 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				5E56F2E61D0777BB00CAED06 /* AnimationContext.swift */,
-				5E56F2E71D0777BB00CAED06 /* AnimationSequence.swift */,
-				5E56F2E81D0777BB00CAED06 /* AnimationStep.swift */,
-				5E56F2E91D0777BB00CAED06 /* AnimationType.swift */,
-				5E56F2EA1D0777BB00CAED06 /* AnimatorCoordinator.swift */,
-				5E56F2EB1D0777BB00CAED06 /* AttachmentConfigurable.swift */,
-				5E56F2EC1D0777BB00CAED06 /* BasicChainable.swift */,
-				5E56F2ED1D0777BB00CAED06 /* BasicConfigurable.swift */,
-				5E56F2EE1D0777BB00CAED06 /* CALayer+Stellar.swift */,
-				5E56F2EF1D0777BB00CAED06 /* Chainable.swift */,
-				5E56F2F01D0777BB00CAED06 /* DynamicItem+Behavior.swift */,
-				5E56F2F11D0777BB00CAED06 /* DynamicItem.swift */,
-				5E56F2F21D0777BB00CAED06 /* DynamicItem2.swift */,
-				5E56F2F31D0777BB00CAED06 /* DynamicItemBasic.swift */,
-				5E56F2F41D0777BB00CAED06 /* DynamicItemGravity.swift */,
-				5E56F2F51D0777BB00CAED06 /* GravityConfigurable.swift */,
-				5E56F2F61D0777BB00CAED06 /* Interpolatable.swift */,
-				5E56F2F71D0777BB00CAED06 /* Physical.swift */,
-				5E56F2F81D0777BB00CAED06 /* SnapConfigurable.swift */,
-				5E56F2F91D0777BB00CAED06 /* TimingFunction.swift */,
-				5E56F2FA1D0777BB00CAED06 /* TimingType.swift */,
-				5E56F2FB1D0777BB00CAED06 /* UIDynamicBehavior+Commit.swift */,
-				5E56F2FC1D0777BB00CAED06 /* UILabel+Stellar.swift */,
-				5E56F2FD1D0777BB00CAED06 /* UITextView+Stellar.swift */,
-				5E56F2FE1D0777BB00CAED06 /* UIView+Stellar.swift */,
-				5E56F2FF1D0777BB00CAED06 /* UnitBezier.swift */,
-				5E56F3001D0777BB00CAED06 /* Value+Physical.swift */,
-				5E56F3011D0777BB00CAED06 /* Vectorial.swift */,
-			);
-			path = Sources;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,10 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E56F2751D076F3E00CAED06 /* Build configuration list for PBXNativeTarget "Swiper" */;
 			buildPhases = (
+				C18EFD30E4B7808363BD77EE /* [CP] Check Pods Manifest.lock */,
 				5E56F25C1D076F3E00CAED06 /* Sources */,
 				5E56F25D1D076F3E00CAED06 /* Frameworks */,
 				5E56F25E1D076F3E00CAED06 /* Headers */,
 				5E56F25F1D076F3E00CAED06 /* Resources */,
+				59C7214AB1F687D8E53CC12C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -275,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E56F2781D076F3E00CAED06 /* Build configuration list for PBXNativeTarget "SwiperTests" */;
 			buildPhases = (
+				BC5F66A5A08B7721023B9676 /* [CP] Check Pods Manifest.lock */,
 				5E56F2671D076F3E00CAED06 /* Sources */,
 				5E56F2681D076F3E00CAED06 /* Frameworks */,
 				5E56F2691D076F3E00CAED06 /* Resources */,
+				67EBB30822456A765E26B92D /* [CP] Embed Pods Frameworks */,
+				35B14F90A9722938575503C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -330,11 +217,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E56F3031D0777BB00CAED06 /* arrow@2x.png in Resources */,
-				5E56F3061D0777BB00CAED06 /* checked@3x.png in Resources */,
-				5E56F3021D0777BB00CAED06 /* .gitignore in Resources */,
-				5E56F3051D0777BB00CAED06 /* checked@2x.png in Resources */,
-				5E56F3041D0777BB00CAED06 /* arrow@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,41 +229,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		35B14F90A9722938575503C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiperTests/Pods-SwiperTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59C7214AB1F687D8E53CC12C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swiper/Pods-Swiper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67EBB30822456A765E26B92D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiperTests/Pods-SwiperTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC5F66A5A08B7721023B9676 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C18EFD30E4B7808363BD77EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5E56F25C1D076F3E00CAED06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E56F3211D0777BB00CAED06 /* UnitBezier.swift in Sources */,
-				5E56F30A1D0777BB00CAED06 /* AnimationStep.swift in Sources */,
-				5E56F3201D0777BB00CAED06 /* UIView+Stellar.swift in Sources */,
-				5E56F3111D0777BB00CAED06 /* Chainable.swift in Sources */,
-				5E56F31C1D0777BB00CAED06 /* TimingType.swift in Sources */,
-				5E56F30F1D0777BB00CAED06 /* BasicConfigurable.swift in Sources */,
-				5E56F31A1D0777BB00CAED06 /* SnapConfigurable.swift in Sources */,
-				5E56F3181D0777BB00CAED06 /* Interpolatable.swift in Sources */,
-				5E56F3161D0777BB00CAED06 /* DynamicItemGravity.swift in Sources */,
-				5E56F3101D0777BB00CAED06 /* CALayer+Stellar.swift in Sources */,
-				5E56F31D1D0777BB00CAED06 /* UIDynamicBehavior+Commit.swift in Sources */,
-				5E56F31E1D0777BB00CAED06 /* UILabel+Stellar.swift in Sources */,
-				5E56F31B1D0777BB00CAED06 /* TimingFunction.swift in Sources */,
-				5E56F3171D0777BB00CAED06 /* GravityConfigurable.swift in Sources */,
-				5E56F30D1D0777BB00CAED06 /* AttachmentConfigurable.swift in Sources */,
-				5E56F30C1D0777BB00CAED06 /* AnimatorCoordinator.swift in Sources */,
 				5E56F2C71D076F6B00CAED06 /* Swiper.swift in Sources */,
-				5E56F31F1D0777BB00CAED06 /* UITextView+Stellar.swift in Sources */,
-				5E56F3191D0777BB00CAED06 /* Physical.swift in Sources */,
-				5E56F3231D0777BB00CAED06 /* Vectorial.swift in Sources */,
-				5E56F3151D0777BB00CAED06 /* DynamicItemBasic.swift in Sources */,
-				5E56F30B1D0777BB00CAED06 /* AnimationType.swift in Sources */,
-				5E56F3071D0777BB00CAED06 /* PeekView.swift in Sources */,
-				5E56F3121D0777BB00CAED06 /* DynamicItem+Behavior.swift in Sources */,
-				5E56F3131D0777BB00CAED06 /* DynamicItem.swift in Sources */,
-				5E56F30E1D0777BB00CAED06 /* BasicChainable.swift in Sources */,
-				5E56F3081D0777BB00CAED06 /* AnimationContext.swift in Sources */,
-				5E56F3091D0777BB00CAED06 /* AnimationSequence.swift in Sources */,
-				5E56F3141D0777BB00CAED06 /* DynamicItem2.swift in Sources */,
-				5E56F3221D0777BB00CAED06 /* Value+Physical.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +428,7 @@
 		};
 		5E56F2761D076F3E00CAED06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87026E58048B69636EE569E8 /* Pods-Swiper.debug.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -513,6 +445,7 @@
 		};
 		5E56F2771D076F3E00CAED06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 081575E52B37DAA9AABF721C /* Pods-Swiper.release.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -529,6 +462,7 @@
 		};
 		5E56F2791D076F3E00CAED06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09A8913205AF5D18BE8F4EED /* Pods-SwiperTests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SwiperTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -539,6 +473,7 @@
 		};
 		5E56F27A1D076F3E00CAED06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1C985683F3222437CFAF349 /* Pods-SwiperTests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SwiperTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

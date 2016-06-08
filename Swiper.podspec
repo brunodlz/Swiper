@@ -33,6 +33,6 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit'
   s.platform     = :ios, "9.0"
 
-#s.dependency 'Stellar', :git=> 'https://github.com/AugustRush/Stellar.git'
-#  s.dependency 'PeekView'
+  s.dependency 'Stellar'
+  s.dependency 'PeekView'
 end
