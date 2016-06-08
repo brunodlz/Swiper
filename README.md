@@ -107,6 +107,11 @@ func swiperPeekViewDidSelectAtionAtIndex(index: Int)
 * <a href="https://github.com/itsmeichigo/PeekView"> PeekView </a>
 * <a href="https://github.com/AugustRush/Stellar"> Stellar </a>
 
+## License
+
+Swiper is available under the MIT license. See the LICENSE file for more info.
+
+
 # TODO
 - [ ] Create CocoaPods
 - [ ] Fix dependency issues with `Stellar`
