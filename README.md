@@ -6,6 +6,10 @@ UIView sublass for creating Tinder like swipe cards, with a peek view.
 [![License](https://img.shields.io/cocoapods/l/Swiper.svg?style=flat)](http://cocoapods.org/pods/Swiper)
 [![Platform](https://img.shields.io/cocoapods/p/Swiper.svg?style=flat)](http://cocoapods.org/pods/Swiper)
 
+# TODO
+- [ ] Fix reloading
+
+![Demo](http://g.recordit.co/JOsJvp5NbM.gif)
 ## Installation
 
 Swiper is available through [CocoaPods](http://cocoapods.org). To install
@@ -112,7 +116,3 @@ func swiperPeekViewDidSelectAtionAtIndex(index: Int)
 Swiper is available under the MIT license. See the LICENSE file for more info.
 
 
-# TODO
-- [ ] Create CocoaPods
-- [ ] Fix dependency issues with `Stellar`
-- [ ] Remove `Open Source` folder and add PeekView and Stellar as dependency
