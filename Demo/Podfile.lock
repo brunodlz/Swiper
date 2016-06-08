@@ -1,0 +1,18 @@
+PODS:
+  - PeekView (1.0.3)
+  - Stellar (0.54)
+  - Swiper (0.0.1):
+    - PeekView
+    - Stellar
+
+DEPENDENCIES:
+  - Swiper
+
+SPEC CHECKSUMS:
+  PeekView: a8c40c71bd4703cbb70e871b2598f5c7aaa97548
+  Stellar: 32eccd51dcb1547d2018d97da64e9f6158f2ef65
+  Swiper: 5451c83bf0cb7a8596ae17bf2a156ace267d876f
+
+PODFILE CHECKSUM: 148ec55b6bf37ea76acf93a86d84fff52404942d
+
+COCOAPODS: 1.0.1
