@@ -158,6 +158,7 @@ public class SwiperData: NSObject{
     count = dataSource?.numberOfCards()
     tempData.removeAll()
     removedData.removeAll()
+    data.removeAll()
     if let imgs = dataSource?.cardData(){
       data = imgs
       for i in (0..<count).reverse() {
