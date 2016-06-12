@@ -1,7 +1,7 @@
 # Swiper
 UIView sublass for creating Tinder like swipe cards, with a peek view.
 
-[![CI Status](http://img.shields.io/travis/=/Swiper.svg?style=flat)](https://travis-ci.org/=/Swiper)
+[![codebeat badge](https://codebeat.co/badges/3c48b977-4c55-44cf-b897-7089d01dd9ce)](https://codebeat.co/projects/github-com-gkye-swiper)
 [![Version](https://img.shields.io/cocoapods/v/Swiper.svg?style=flat)](http://cocoapods.org/pods/Swiper)
 [![License](https://img.shields.io/cocoapods/l/Swiper.svg?style=flat)](http://cocoapods.org/pods/Swiper)
 [![Platform](https://img.shields.io/cocoapods/p/Swiper.svg?style=flat)](http://cocoapods.org/pods/Swiper)
