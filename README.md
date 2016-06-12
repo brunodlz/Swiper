@@ -7,7 +7,7 @@ UIView sublass for creating Tinder like swipe cards, with a peek view.
 [![Platform](https://img.shields.io/cocoapods/p/Swiper.svg?style=flat)](http://cocoapods.org/pods/Swiper)
 
 # TODO
-- [ ] Fix reloading
+- [ ] Fix reloading/bump spec
 
 ![Demo](http://g.recordit.co/JOsJvp5NbM.gif)
 ## Installation
